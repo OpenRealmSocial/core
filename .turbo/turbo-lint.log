@@ -1,0 +1,3 @@
+$ biome format src/ --write && biome check src/ --apply
+Formatted 42 file(s) in 18ms
+Fixed 42 file(s) in 66ms

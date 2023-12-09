@@ -1,0 +1,35 @@
+$ NODE_OPTIONS=--experimental-vm-modules jest
+(node:43651) ExperimentalWarning: VM Modules is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS src/time.test.ts
+(node:43648) ExperimentalWarning: VM Modules is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43650) ExperimentalWarning: VM Modules is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43647) ExperimentalWarning: VM Modules is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43646) ExperimentalWarning: VM Modules is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43649) ExperimentalWarning: VM Modules is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS src/bytes.test.ts
+(node:43645) ExperimentalWarning: VM Modules is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS src/signers/nobleEd25519Signer.test.ts
+PASS src/userNameProof.test.ts
+PASS src/crypto/ed25519.test.ts
+PASS src/crypto/eip712.test.ts
+PASS src/builders.test.ts
+PASS src/factories.test.ts
+PASS src/errors.test.ts
+PASS src/verifications.test.ts
+PASS src/validations.test.ts
+PASS src/signers/viemLocalEip712Signer.test.ts
+PASS src/signers/ethersEip712Signer.test.ts
+PASS src/signers/ethersV5Eip712Signer.test.ts
+
+Test Suites: 14 passed, 14 total
+Tests:       244 passed, 244 total
+Snapshots:   0 total
+Time:        3.691 s
+Ran all test suites.
